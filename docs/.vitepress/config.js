@@ -143,7 +143,7 @@ const getSidebarData = () => {
 export default {
 	title: 'Documentation',
 	description: 'Documentation for PHPSniffer',
-	base: '/docs/',
+	base: '/phpcs/docs/',
 	themeConfig: {
 		siteTitle: 'PHPSniffer',
 		outline: 'deep',
