@@ -1,0 +1,27 @@
+.custom-block {
+  &.valid {
+    border: 0px solid transparent;
+    border-left: 2px solid green;
+    border-radius: 0;
+    padding: 0 16px;
+    margin-bottom: 60px !important;
+
+    .custom-block-title {
+      color: green;
+      font-weight: 500;
+    }
+  }
+
+  &.invalid {
+    border: 0px solid transparent;
+    border-left: 2px solid darkred;
+    border-radius: 0;
+    padding: 0 16px;
+    margin-bottom: 60px !important;
+
+    .custom-block-title {
+      color: darkred;
+      font-weight: 500;
+    }
+  }
+}
