@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: PHPSniff
+  name: PHPCodeSniffer
   text: Documentation
   tagline: PHP linting
   actions:
